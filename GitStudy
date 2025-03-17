@@ -1,0 +1,47 @@
+1.Create repository
+Create new repository
+在想要存放項目的資料夾中右鍵 → Git Clone
+輸入倉庫 URL，例如：https://github.com/username/repository.git
+選擇目標目錄，點擊「OK」
+Create local repository
+在資料夾中右鍵 → Git Create repository here
+確認後，資料夾成為 Git 倉庫
+2.Commit(提交變更)
+將修改後的檔案更新至local Git倉庫
+修改檔案後，右鍵點擊資料夾 → Git Commit
+輸入提交訊息描述你的變更
+選擇要提交的檔案（已修改的檔案會自動顯示）
+點擊「Commit」按鈕
+3. 推送到遠程 (Push)
+將修改後的local Git倉庫更新至遠程倉庫
+右鍵點擊資料夾 → TortoiseGit → Push
+選擇目標遠程倉庫和分支
+點擊「OK」推送變更
+4. 獲取最新變更 (Pull)
+將線上的Git更新至Local Git
+右鍵點擊資料夾 → TortoiseGit → Pull
+選擇遠程倉庫和分支
+點擊「OK」拉取變更
+5.分支管理
+創建分支
+右鍵 → TortoiseGit → 建立分支(Create Branch)
+輸入分支名稱，勾選「切換到新分支(Switch to new branch)」以切換到新分支
+點擊「OK」
+切換分支：
+右鍵 → TortoiseGit → 切換/取出(Switch/Checkout)
+選擇要切換到的分支
+點擊「OK」
+合併分支：
+切換到目標分支（通常是 main 或 master）
+右鍵 → TortoiseGit → 合併(Merge)
+選擇要合併的分支
+點擊「OK」
+6. 查看日誌和歷史
+右鍵 → TortoiseGit → 顯示日誌(Show Log)
+查看提交歷史、作者、時間和訊息
+雙擊某個提交可查看詳細變更
+7. 使用 Stash 暫存工作
+右鍵 → TortoiseGit → Stash → 收藏變更(Save)
+輸入描述訊息
+點擊「OK」保存當前工作
+需要恢復時：右鍵 → TortoiseGit → Stash → Apply
